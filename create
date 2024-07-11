@@ -1,1 +1,7 @@
 use alu
+    db.departments.insertMany([
+        { name: "academics", level: 1 },
+        { name: "finance", level: 2 },
+        { name: "life", level: 3 }
+    ]);
+    
